@@ -1,0 +1,109 @@
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Raleway:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Raleway:wght@300&family=Sacramento&display=swap'); 
+body{
+  margin:0px;
+}
+
+table, tr, td,th,thead {
+  border: none;
+}
+
+.navbar-nav a{
+  font-size:20px;
+  color:#E0E1E4!important;
+  font-family: 'Raleway', sans-serif;
+  font-weight:bold;
+  
+}
+.navbar-nav a:hover{
+  color:#FFFFFF!important;
+}
+.contain-nav{
+background-color:#BF40BF!important;
+}
+
+
+.logo img{
+  height:100px;
+ width:200px;
+  margin-top:-100px;
+  overflow:none;
+}
+/* FIRST DIV */
+.first-div{
+   background-image:linear-gradient(45deg, #ff009952, #6e0dd04e, #00ffff7e), url("images/worship.jpeg");
+  height:600px;
+  
+  background-size:cover;
+  
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  
+}
+
+.first-text h1{
+  /* font-family: 'Dancing Script', cursive;
+  font-family: 'Raleway', sans-serif;  */
+  /* font-family: 'Sacramento', cursive; */
+    color: #ffc600;
+    font-family: "Rock Salt"; 
+    font-weight: 800;
+    font-style: Bold;
+    margin-top:40px;
+}
+.first-text p,.schedule h1,.events h1,.sermons h1{
+  font-family: "Rock Salt"; 
+  font-style:bold;
+  color:#FFFFFF;
+  font-weight:500;
+  font-size:30px;
+}
+.second-text{
+  margin-left:2rem;
+  margin-top:20rem;
+}
+
+/* SECOND DIV */
+.second-div{
+ 
+  height:600px;
+}
+
+.schedule{
+  background-color:#32cd32c8;
+  height:600px;
+}
+.events{
+  background-color:#ffa600c6;
+  height:600px;
+}
+
+/* Sermons  div*/
+
+.sermons{
+  height: 700px;
+  background-color:#36454f;
+  
+}
+/* Today's sermon */
+/* this is a _demo_ container. remember the importance of relative and absolute positioning */
+#paragraph{
+  display:none;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+
+   /* .navbar-nav a{
+    margin:0px!important;
+    float: left; */
+  .second-text{
+    margin-top:3rem;
+  }
+   
+  
+}
