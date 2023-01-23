@@ -1,8 +1,16 @@
-function displaySermon(){
-  var p=document.getElementById("paragraph");
+
+//displaying today's sermon
+const p=document.getElementById("display-paragraph");
+const btn=document.getElementById("clicked-button");
+
+btn.onclick=function(){
+if(p.style.display!=="block"){
   p.style.display="block";
 }
-
+else{
+  p.style.display="none";
+}
+};
 // closing the navbar
 $(function () {
     $(document).click(function (event) {

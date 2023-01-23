@@ -34,7 +34,7 @@ background-color:#BF40BF!important;
 /* FIRST DIV */
 .first-div{
    background-image:linear-gradient(45deg, #ff009952, #6e0dd04e, #00ffff7e), url("images/worship.jpeg");
-  height:600px;
+  height:700px;
   
   background-size:cover;
   
@@ -86,15 +86,21 @@ background-color:#BF40BF!important;
 .sermons{
   height: 700px;
   background-color:#36454f;
+  margin-top:37rem;;
   
 }
 /* Today's sermon */
 /* this is a _demo_ container. remember the importance of relative and absolute positioning */
-#paragraph{
-  display:none;
+.clicked-button{
+  margin-top:2rem;
 }
+.sermon-display{
+  margin-top:2rem;
+}
+.sermon-display p{
+  color:#FFFFFF;
 
-
+}
 @media only screen and (max-width: 767px) {
 
 
