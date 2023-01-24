@@ -84,7 +84,7 @@ background-color:#BF40BF!important;
 /* Sermons  div*/
 
 .sermons{
-  height: 850px;
+  height: 800px;
   background-color:#36454f;
 
   
@@ -124,13 +124,16 @@ background-color:#BF40BF!important;
   }
   .sermons{
      margin-top:43.7rem; 
-     height:900px;
+     height:1500px;
   }
   iframe{
     width:300px;
-    height:200px;
-    margin-left:auto;
-    margin-right:auto;
+    height:150px;
+   
+  
+  }
+  .sermon-row{
+    margin-left:0px;
   }
   .schedule{
     height:700px;
