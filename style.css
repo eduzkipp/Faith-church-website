@@ -86,7 +86,7 @@ background-color:#BF40BF!important;
 .sermons{
   height: 700px;
   background-color:#36454f;
-  margin-top:37rem;;
+
   
 }
 /* Today's sermon */
@@ -101,7 +101,12 @@ background-color:#BF40BF!important;
   color:#FFFFFF;
 
 }
-@media only screen and (max-width: 767px) {
+.sermon-row{
+  /* margin-right:auto; */
+  margin-left: 120px;
+}
+/* Responsive media */
+@media only screen and (max-width: 768px) {
 
 
    /* .navbar-nav a{
@@ -109,6 +114,19 @@ background-color:#BF40BF!important;
     float: left; */
   .second-text{
     margin-top:3rem;
+  }
+  .sermons{
+     margin-top:43.7rem; 
+     height:900px;
+  }
+  iframe{
+    width:300px;
+    height:200px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .schedule{
+    height:700px;
   }
    
   

@@ -1,16 +1,25 @@
 
-//displaying today's sermon
+//displaying today's
 const p=document.getElementById("display-paragraph");
 const btn=document.getElementById("clicked-button");
 
-btn.onclick=function(){
-if(p.style.display!=="block"){
-  p.style.display="block";
+// btn.onclick=function(){
+// if(p.style.display!=="block"){
+//   p.style.display="block";
+// }
+// else{
+//   p.style.display="none";
+// }
+// };
+
+function ShowAndHide(){
+  if(p.style.display=='none'){
+    p.style.display='block';
+  }
+  else{
+    p.style.display='none';
+  }
 }
-else{
-  p.style.display="none";
-}
-};
 // closing the navbar
 $(function () {
     $(document).click(function (event) {
