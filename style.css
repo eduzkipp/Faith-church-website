@@ -84,7 +84,7 @@ background-color:#BF40BF!important;
 /* Sermons  div*/
 
 .sermons{
-  height: 800px;
+  height: 850px;
   background-color:#36454f;
 
   
@@ -105,8 +105,12 @@ background-color:#BF40BF!important;
   /* margin-right:auto; */
   margin-left: 120px;
 }
+.youtube-link{
+  margin-top: 15px;
+}
 .youtube-link a{
   text-decoration: none;
+ 
 }
 /* Responsive media */
 @media only screen and (max-width: 768px) {
