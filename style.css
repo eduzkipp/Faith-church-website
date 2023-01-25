@@ -2,8 +2,10 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Raleway:wght@300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Raleway:wght@300&family=Sacramento&display=swap'); 
-body{
-  margin:0px;
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Raleway:wght@300&family=Sacramento&display=swap');
+  
+  body{
+    margin:0px;
 }
 
 table, tr, td,th,thead {
@@ -49,13 +51,13 @@ background-color:#BF40BF!important;
   font-family: 'Raleway', sans-serif;  */
   /* font-family: 'Sacramento', cursive; */
     color: #ffc600;
-    font-family: "Rock Salt"; 
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-style: Bold;
     margin-top:40px;
 }
 .first-text p,.schedule h1,.events h1,.sermons h1{
-  font-family: "Rock Salt"; 
+  font-family: 'Raleway', sans-serif;
   font-style:bold;
   color:#FFFFFF;
   font-weight:500;
@@ -111,6 +113,9 @@ background-color:#BF40BF!important;
 .youtube-link a{
   text-decoration: none;
  
+}
+div.embed-responsive div.caption{
+  color:#ffffff;
 }
 /* Responsive media */
 @media only screen and (max-width: 768px) {
