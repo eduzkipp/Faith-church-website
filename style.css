@@ -56,6 +56,20 @@ background-color:#BF40BF!important;
     font-style: Bold;
     margin-top:40px;
 }
+/* pastor div */
+.pastor-div{
+  background-color: rgba(221, 221, 221, 0.585);
+  background-image: linear-gradient(rgba(221, 221, 221, 0.585),rgba(221, 221, 221, 0.585)),url("images/pastor-div.jpeg");
+  height:700px;
+  
+  background-size:cover;
+  
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+
+  height:500px;
+}
 .first-text p,.schedule h1,.events h1,.sermons h1{
   font-family: 'Raleway', sans-serif;
   font-style:bold;
