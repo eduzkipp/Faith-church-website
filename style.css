@@ -63,6 +63,35 @@ background-color:#BF40BF!important;
   font-weight:500;
   font-size:30px;
 }
+.schedule h1::before,.schedule h1::after{
+  background-color: #ddd;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 15%
+}
+.events h1::before,.events h1::after{
+  background-color: #ddd;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 15%
+}
+
+.sermons h1::before,.sermons h1::after{
+  background-color: #ddd;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 20%
+}
+
 .second-text{
   margin-left:2rem;
   margin-top:20rem;
@@ -86,7 +115,7 @@ background-color:#BF40BF!important;
 /* Sermons  div*/
 
 .sermons{
-  height: 800px;
+  height: 850px;
   background-color:#36454f;
 
   
@@ -110,13 +139,34 @@ background-color:#BF40BF!important;
 .youtube-link{
   margin-top: 15px;
 }
-.youtube-link a{
-  text-decoration: none;
- 
-}
+
 div.embed-responsive div.caption{
   color:#ffffff;
 }
+.give-section{
+  height:100px;
+}
+.give-section h1{
+  color:#36454f;
+  font-weight:500;
+  font-size:26px;
+}
+.give-section h1::before,.give-section h1::after{
+  background-color: #ddd;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+}
+.give-section p{
+  margin-top:30px;
+}
+.give-section a{
+  color:#36454f;
+}
+
 /* Responsive media */
 @media only screen and (max-width: 768px) {
 
