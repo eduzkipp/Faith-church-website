@@ -180,7 +180,14 @@ div.embed-responsive div.caption{
 .give-section a{
   color:#36454f;
 }
-
+.pastor-text p{
+  margin-top: 50px;
+  font-size:20px;
+  font-weight:500;
+  color:#000000;
+  font-style: bold;
+  /* font-family: 'Raleway', sans-serif; */
+}
 /* Responsive media */
 @media only screen and (max-width: 768px) {
 
