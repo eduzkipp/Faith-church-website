@@ -197,7 +197,7 @@ div.embed-responsive div.caption{
 } */
 /* Responsive media */
 .pastor-row .pastor-img{
-  background-image: url("/images/Pastor.jpeg");
+  background-image: url("images/Pastor.jpeg");
   height:500px;
   margin-top: 20px;
 }
