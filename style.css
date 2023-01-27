@@ -60,7 +60,7 @@ background-color:#BF40BF!important;
 .pastor-div{
   background-color: rgba(221, 221, 221, 0.585);
   background-image: linear-gradient(rgba(221, 221, 221, 0.585),rgba(221, 221, 221, 0.585)),url("images/pastor-div.jpeg");
-  height:700px;
+  height:600px;
   
   background-size:cover;
   
@@ -68,7 +68,7 @@ background-color:#BF40BF!important;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
 
-  height:500px;
+  
 }
 .first-text p,.schedule h1,.events h1,.sermons h1{
   font-family: 'Raleway', sans-serif;
@@ -188,7 +188,22 @@ div.embed-responsive div.caption{
   font-style: bold;
   /* font-family: 'Raleway', sans-serif; */
 }
+/* .pastor-text p::after{
+  content:"Pastor  Shadrack Njuguna";
+  font-size:20px;
+  font-weight:500;
+  color:#000000;
+  font-style: bold;
+} */
 /* Responsive media */
+.pastor-row .pastor-img{
+  background-image: url("/images/pastor.jpeg");
+  height:500px;
+  margin-top: 20px;
+}
+.pastor-row .links{
+  margin-top:20px;
+}
 @media only screen and (max-width: 768px) {
 
 
@@ -213,6 +228,9 @@ div.embed-responsive div.caption{
   }
   .schedule{
     height:700px;
+  }
+  .second-div{
+    margin-top:50rem;
   }
    
   
