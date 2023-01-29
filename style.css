@@ -7,6 +7,17 @@
   body{
     margin:0px;
 }
+#navbar_top{
+  position: -webkit-sticky;
+  position:sticky;
+  top:0;
+  z-index: 1;
+}
+#navbar_top.sticky{
+  position:fixed;
+  top:0;
+  width:100%;
+}
 
 table, tr, td,th,thead {
   border: none;
@@ -129,7 +140,7 @@ background-color:#BF40BF!important;
 /* Sermons  div*/
 
 .sermons{
-  height: 1500px;
+  height: 900px;
   background-color:#36454f;
 
   
@@ -159,7 +170,8 @@ div.embed-responsive div.caption{
   color:#ffffff;
 }
 .give-section{
-  height:100px;
+  height:200px;
+  margin-bottom: 170px;
 }
 .give-section h1{
   color:#36454f;
@@ -174,6 +186,9 @@ div.embed-responsive div.caption{
     position: relative;
     vertical-align: middle;
     width: 20%;
+}
+.give-section{
+  height:100px;
 }
 .give-section p{
   margin-top:30px;
@@ -204,6 +219,15 @@ div.embed-responsive div.caption{
 }
 .pastor-row .links{
   margin-top:20px;
+}
+.footer{
+  /* position:fixed;
+  left:0;
+  bottom:0; */
+  width:100%;
+  background-color:#36454f;
+  height:100px;
+
 }
 @media only screen and (max-width: 768px) {
 
