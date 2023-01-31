@@ -192,6 +192,7 @@ div.embed-responsive div.caption{
 }
 .give-section p{
   margin-top:30px;
+  color:#36454f;
 }
 .give-section a{
   color:#36454f;
@@ -229,6 +230,44 @@ div.embed-responsive div.caption{
   height:200px;
 
 }
+.footer h1,p{
+  color:#ddd;
+}
+.footer a{
+  padding:10px;
+}
+.footer span{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  margin-top:20px;
+  z-index:1;
+}
+.footer a:hover span{
+  visibility: visible;
+ 
+}
+.contact-us span{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  margin-top:20px;
+  z-index:1;
+}
+.contact-us a:hover span{
+  visibility: visible;
+}
+
 @media only screen and (max-width: 768px) {
 
 
