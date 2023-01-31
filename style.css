@@ -227,7 +227,7 @@ div.embed-responsive div.caption{
   bottom:0; */
   width:100%;
   background-color:#36454f;
-  height:200px;
+  height:400px;
 
 }
 .footer h1,p{
@@ -296,6 +296,11 @@ div.embed-responsive div.caption{
   .second-div{
     margin-top:50rem;
   }
-   
+   div.location1{
+    margin-bottom: 30px;
+   }
+   div.contact-us{
+    margin-bottom: 30px;
+   }
+   } 
   
-}
