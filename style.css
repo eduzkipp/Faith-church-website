@@ -267,6 +267,46 @@ div.embed-responsive div.caption{
 .contact-us a:hover span{
   visibility: visible;
 }
+/* about.html css */
+div.about_history{
+  height:300px;
+  background-color: #36454f;
+  
+}
+div.about_history h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight:300;
+  color:#ddd;
+  font-style: bold;
+}
+div.about_history p{
+  font-size:20px;
+  color:#ddd;
+
+  font-family: 'Raleway', sans-serif;
+}
+.about_history h1::before,.about_history h1::after{
+  background-color: #ddd;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+}
+div.about_vision{
+  height:100px;
+  margin-bottom:100px;
+}
+div.vision_col, div.mission_col{
+  background-color: #ddd;
+  height:200px;
+}
+div.vision_col p,div.mission_col p{
+  color:#000000;
+  font-family:'Raleway', sans-serif; ;
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -305,5 +345,10 @@ div.embed-responsive div.caption{
    div.footer{
     height: 530px;
    } 
+   /* about.html */
+   div.about_vision{
+    
+    margin-bottom:300px;
+  }
    } 
   
