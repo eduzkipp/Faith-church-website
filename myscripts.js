@@ -42,5 +42,7 @@ if(window.pageYOffset>=sticky){
   navbar.classList.remove("sticky");
 }
 }
+//change color of submit button in index.php
+
 
 

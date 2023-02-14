@@ -15,7 +15,13 @@
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 	
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Rock+Salt" />
+    <script language="JavaScript" src="myscripts.js"></script>
+    <style>
+<?php include 'style.css'; ?>
+</style>
 </head>
+
+
 <body>
    <!-- NAVBAR -->
    <div class="container-fluid contain-nav ">
@@ -45,36 +51,44 @@
         </nav>
     </div>
 
+
        <div class="container-fluid form_php">
-         <h1 class="text-center">Storing Form data in Database</h1>
+         <h1 class="text-center">Fill in your details</h1>
 
          
          <form action="insert.php" method="post">
+         
              
               <p>
                <label for="firstName">First Name:</label>
                <input type="text" name="first_name" id="firstName">
+               <span class="error">*</span>
             </p>
- 
-             
             <p>
                <label for="lastName">Last Name:</label>
                <input type="text" name="last_name" id="lastName">
-            </p>
-
-             
+               <span class="error">*</span>
+            </p> 
               <p>
-               <label for="Address">Address:</label>
+               <label for="Address">Residential area:</label>
                <input type="text" name="address" id="Address">
+               <span class="error">*</span>
             </p>
+        <p><label for="phone">Phone number</label>
+        <input type="tel" id="phone" name="phone">
+     
+       <span class="error">*</span>
+      </p>
+      <p>
+      <label for="age">Age:</label>
+  <input type="number" id="age" name="age">
+  <span class="error">*</span>
+</p>
+
+
+</p>
  
-             
-              <p>
-               <label for="emailAddress">Email Address:</label>
-               <input type="text" name="email_address" id="emailAddress">
-            </p>
- 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" id="form_submit">
          </form>
 </div>
     

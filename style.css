@@ -310,7 +310,44 @@ div.vision_col p,div.mission_col p{
 /* index.php */
 .form_php{
   height:300px;
+  text-align: center;
 }
+.form_php form{
+  margin-top: 30px;
+}
+.form_php form p{
+  padding:10px;
+  font-style: bold;
+  font-size: 20px;
+  font-weight:600;
+  
+}
+.form_php form label{
+color:#000000;
+  
+}
+.form_php form span{
+  color:red;
+}.form_php form input{
+  margin-left: 30px;
+}
+#Address{
+  margin-left: 0px;
+}
+#emailAddress{
+  margin-left: 0px;
+}
+#age{
+  margin-left:8rem;
+}
+#form_submit{
+width:100px;
+margin-left:8rem;
+}
+#form_submit:active{
+  background-color:	#5F9EA0
+} 
+
 
 @media only screen and (max-width: 768px) {
 

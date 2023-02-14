@@ -8,6 +8,7 @@
 <body>
 	
 		<?php
+		
 
 		// servername => localhost
 		// username => root
@@ -22,28 +23,45 @@
 		}
 		
 		// Taking all 5 values from the form data(input)
-		$first_name = $_REQUEST['first_name'];
-		$last_name = $_REQUEST['last_name'];
-		// $gender = $_REQUEST['gender'];
-		$address = $_REQUEST['address'];
-		$email_address = $_REQUEST['email_address'];
+		// $first_name = $_REQUEST['first_name'];
+		// $last_name = $_REQUEST['last_name'];
+		// // $gender = $_REQUEST['gender'];
+		// $address = $_REQUEST['address'];
+		// $email_address = $_REQUEST['email_address'];
 		
 		// Performing insert query execution
 		// here our table name is college
-		$sql = "INSERT INTO members_details VALUES ('$first_name',
-			'$last_name','$address','$email_address')";
+
+		//make sure allof the input boxes have a value
+
+		$fn=$_POST['first_name'];
+		$ln=$_POST['last_name'];
+		$add=$_POST['address'];
+		$pho=$_POST['phone'];
+		$age=$_POST['age'];
+
+		if(empty($fn)||
+		 empty($ln)||
+		 empty($add)||
+		 empty($pho)||
+		 empty($age))
+		 {
+			die('<p style="font-size:25px;">please fill all required fields!');
+
+		 }
+
+
+		else{
+		$sql = "INSERT INTO members_details VALUES ('$fn',
+			'$ln','$add','$pho','$age')";
 		
 		if(mysqli_query($conn, $sql)){
-			echo "<h3>data stored in a database successfully."
-				. " Please browse your localhost php my admin"
-				. " to view the updated data</h3>";
-
-			// echo nl2br("\n$first_name\n $last_name\n "
-			// 	. "$gender\n $address\n $email");
+		echo '<p style="font-size:25px;color:green;">Form validated and data submitted to database successfully';
 		} else{
 			echo "ERROR: Hush! Sorry $sql. "
 				. mysqli_error($conn);
 		}
+	}
 		
 		// Close connection
 		mysqli_close($conn);
