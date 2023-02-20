@@ -50,10 +50,44 @@
     <div class="container-fluid contact_section">
         <div class=" contact_img"><h1 class="text-center">Contact us</h1></div>
         <div class="row">
-            <div class="col-md contact-form"></div>
+            <div class="col-md contact-form">
+                <div class="container-fluid contactform_php">
+                    <h1 class="text-center">Leave a message for us</h1>
+           
+                    
+                    <form action="#" method="post">
+                    
+                        
+                         <p>
+            
+                          <input type="text" name="name" id="name" placeholder="your name">
+                          <span class="error">*</span>
+                       </p>
+                       <p>
+    
+                          <input type="email" name="email" id="email" placeholder="email">
+                          <span class="error">*</span>
+                       </p> 
+                         <p>
+                          
+                          <input type="text" name="subject" id="subject" placeholder="subject">
+                          <span class="error">*</span>
+                       </p>
+                   <p>
+                   <input type="text" class="txta" id="message" oninput="autoSize(this)"name="message" placeholder="place your message">
+                
+                  <span class="error">*</span>
+                 </p>
+              
+                       <input type="submit" value="Submit" id="formsubmit_contact">
+                    </form>
+           </div>
+
+            </div>
             <div class="col-md contact-details"></div>
         </div>
     </div>
     
+<script src="myscripts.js"></script>
 </body>
 </html>

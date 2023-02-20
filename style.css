@@ -345,7 +345,7 @@ width:100px;
 margin-left:8rem;
 }
 #form_submit:active{
-  background-color:	#5F9EA0
+  background-color:	#5F9EA0;
 } 
 /* gallery */
 .images figcaption{
@@ -370,11 +370,36 @@ margin-left:8rem;
 }
 .contact-form{
   background-color: #fff;
-  height:300px;
+  height:600px;
 }
 .contact-details{
   background-color: #36454f;
-  height:300px;
+  height:600px;
+}
+.contactform_php form input{
+        border-top-style: hidden;
+        border-right-style: hidden;
+        border-left-style: hidden;
+        border-bottom-style: groove;
+}
+.contactform_php form{
+  text-align: center;
+  
+}
+.contactform_php form span{
+  color: red;
+}
+#name,#subject,#message,#email{
+  padding:2rem;
+  width:80%;
+}
+#formsubmit_contact{
+  border-bottom-style:hidden;
+  width:30%;
+  height:40px;
+}
+#formsubmit_contact:active{
+  background-color: #5F9EA0;
 }
 
 @media only screen and (max-width: 768px) {
