@@ -347,6 +347,16 @@ margin-left:8rem;
 #form_submit:active{
   background-color:	#5F9EA0
 } 
+/* gallery */
+.images figcaption{
+  font-size: 20px;
+  font-style: bold;
+  color: #000000;
+}
+/* contact us */
+.contact-us .contact_img{
+  height: 50px;
+}
 
 
 @media only screen and (max-width: 768px) {

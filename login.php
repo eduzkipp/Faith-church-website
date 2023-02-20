@@ -8,9 +8,9 @@
 </head>
 <body>
     <form action="validate.php" method="post">
-        <h1>Login</h1>
-        <input type="text" placeholder="username" name="un" value="">
-        <input type="text" placerholder="password" name="psw" value="">
+        <h1>ADMIN LOGIN</h1>
+        <input type="text" placeholder="username" name="un" value=""><br><br>
+        <input type="text" placeholder="password" name="psw" value=""><br><br>
         <input type="submit" value="Submit" name="submit">
 </form>
     
