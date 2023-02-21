@@ -55,7 +55,7 @@
                     <h1 class="text-center">Leave a message for us</h1>
            
                     
-                    <form action="#" method="post">
+                    <form action="contact.php" method="post">
                     
                         
                          <p>
@@ -74,7 +74,7 @@
                           <span class="error">*</span>
                        </p>
                    <p>
-                   <input type="text" class="txta" id="message" oninput="autoSize(this)"name="message" placeholder="place your message">
+                   <textarea type="text" class="txta" id="message" onkeyup="new do_resize(this);"cols="20" rows="1" name="message" placeholder="place your message"></textarea>
                 
                   <span class="error">*</span>
                  </p>
