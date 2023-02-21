@@ -8,7 +8,7 @@ if (isset($_POST["submit"])) {
 
          if(($row['username'] == $username)) {
             $_SESSION['user']=$row['username'];
-                header("location: admin.php");
+                header("location: admin.html");
         }
         else if(($username == '') && ($password == '')) {
             echo "<script language='javascript'>";
