@@ -65,7 +65,7 @@ background-color:#BF40BF!important;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-style: Bold;
-    margin-top:40px;
+    padding-top: 7rem;
 }
 /* pastor div */
 .pastor-div{
@@ -118,8 +118,8 @@ background-color:#BF40BF!important;
 }
 
 .second-text{
-  margin-left:2rem;
-  margin-top:20rem;
+  padding-left:2rem;
+  padding-top:7rem;
 }
 
 /* SECOND DIV */
