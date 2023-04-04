@@ -491,9 +491,10 @@ margin-left:8rem;
   .schedule{
     height:700px;
   }
-  .second-div{
-    margin-top:50rem;
+  .pastor-div{
+    margin-bottom: 53.1rem;
   }
+  
    div.location1{
     margin-bottom: 30px;
    }
@@ -501,7 +502,7 @@ margin-left:8rem;
     margin-bottom: 30px;
    }
    div.footer{
-    height: 530px;
+    height: 600px;
    } 
    /* about.html */
    div.about_vision{
