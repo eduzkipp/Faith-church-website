@@ -86,9 +86,8 @@
 </p>
 
 
-</p>
- 
-            <input type="submit" value="Submit" id="form_submit">
+<p>
+ <input type="submit" value="Submit" id="form_submit"></p>
          </form>
 </div>
     
